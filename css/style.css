@@ -22,7 +22,7 @@ body{
     background-image: url('/img/background/flower-blur.png');
     background-color: rgb(32, 32, 32);
     font-family: 'Montserrat';
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu' sans-serif;
 }
 
 
@@ -40,7 +40,7 @@ body{
     position: fixed;
     top: 0;
     opacity: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-family: 'Ubuntu', sans-serif;
 }
 .profile-heading{
