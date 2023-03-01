@@ -21,8 +21,8 @@ body{
     overflow-x: hidden;
     background-image: url('/img/background/flower-blur.png');
     background-color: rgb(32, 32, 32);
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
 }
 
 
