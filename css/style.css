@@ -21,8 +21,8 @@ body{
     overflow-x: hidden;
     background-image: url('/img/background/flower-blur.png');
     background-color: rgb(32, 32, 32);
-    font-family: 'Montserrat';
-    font-family: 'Ubuntu';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -40,8 +40,8 @@ body{
     position: fixed;
     top: 0;
     opacity: 0;
-    font-family: 'Montserrat';
-    font-family: 'Ubuntu';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .profile-heading{
     position: absolute;
@@ -53,8 +53,7 @@ body{
     font-weight: 300;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.342));
     animation: Finy 2.3s forwards;
-    font-family: 'Montserrat';
-    font-family: 'Ubuntu';
+    font-family: 'Montserrat', sans-serif;
 }
  .avatar{
   position: absolute;
@@ -65,8 +64,6 @@ body{
   transition: 0.3s;
   filter: drop-shadow(0 0px 10px rgba(0, 0, 0, 0.74));
   animation: avatar 2s forwards;
-  font-family: 'Montserrat';
-  font-family: 'Ubuntu';
  }
 
 
@@ -146,6 +143,7 @@ body{
   font-weight: 300;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
   animation: frame 1s forwards;
+  font-family: 'Montserrat', sans-serif;
 }
 .spotify-frame-text{
   position: absolute;
@@ -157,6 +155,7 @@ body{
   font-weight: 300;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
   animation: frame 1s forwards;
+  font-family: 'Montserrat', sans-serif;
 }
 .steam-frame-text{
   position: absolute;
@@ -168,13 +167,14 @@ body{
   font-weight: 300;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
   animation: frame 1s forwards;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 .frame-text{
   width: 3ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -191,7 +191,7 @@ body{
 .frame-texts{
   width: 68ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -208,7 +208,7 @@ body{
 .frame-texts2{
   width: 62ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -225,7 +225,7 @@ body{
 .frame-texts3{
   width: 106ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -242,7 +242,7 @@ body{
 .frame-texts4{
   width: 93ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -260,7 +260,7 @@ body{
 .space{
   width: 100ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -278,7 +278,7 @@ body{
 .frame-text-eng{
   width: 3ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -295,7 +295,7 @@ body{
 .frame-texts-eng{
   width: 68ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -312,7 +312,7 @@ body{
 .frame-texts2-eng{
   width: 51ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -329,7 +329,7 @@ body{
 .frame-texts3-eng{
   width: 74ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
@@ -346,7 +346,7 @@ body{
 .frame-texts4-eng{
   width: 72ch;
   color: #fff;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu' sans-serif;
   overflow: hidden;
   border-right: 3px solid #00a2ff;
   white-space: nowrap;
