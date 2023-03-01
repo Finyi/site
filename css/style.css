@@ -22,6 +22,7 @@ body{
     background-image: url('/img/background/flower-blur.png');
     background-color: rgb(32, 32, 32);
     font-family: 'Montserrat';
+    font-family: 'Ubuntu';
 }
 
 
@@ -39,6 +40,8 @@ body{
     position: fixed;
     top: 0;
     opacity: 0;
+    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
 }
 .profile-heading{
     position: absolute;
@@ -50,6 +53,8 @@ body{
     font-weight: 300;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.342));
     animation: Finy 2.3s forwards;
+    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
 }
  .avatar{
   position: absolute;
@@ -60,6 +65,8 @@ body{
   transition: 0.3s;
   filter: drop-shadow(0 0px 10px rgba(0, 0, 0, 0.74));
   animation: avatar 2s forwards;
+  font-family: 'Montserrat';
+  font-family: 'Ubuntu';
  }
 
 
