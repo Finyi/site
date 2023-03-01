@@ -1,5 +1,6 @@
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     src: url("fonts/Montserrat-Medium.ttf") format("ttf");
     src: url("fonts/Ubuntu-Regular.ttf") format("ttf");
   }
@@ -18,7 +19,7 @@ body{
     min-height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: url('img/background/flower-blur.png');
+    background-image: url('/img/background/flower-blur.png');
     background-color: rgb(32, 32, 32);
     font-family: 'Montserrat';
 }
