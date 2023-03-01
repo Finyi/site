@@ -47,7 +47,7 @@ body{
     position: absolute;
     color: #fff;
     top: -160px;
-    left: 630px;
+    left: 643px;
     font-size: 50px;
     text-transform: capitalize;
     font-weight: 300;
@@ -143,7 +143,7 @@ body{
   font-weight: 300;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
   animation: frame 1s forwards;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 .spotify-frame-text{
   position: absolute;
@@ -155,7 +155,7 @@ body{
   font-weight: 300;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
   animation: frame 1s forwards;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 .steam-frame-text{
   position: absolute;
@@ -167,7 +167,7 @@ body{
   font-weight: 300;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
   animation: frame 1s forwards;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 
 
