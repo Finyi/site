@@ -19,7 +19,7 @@ body{
     min-height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: url('img/background/flower-blur.png');
+    background-image: url('img/flower-blur.png');
     background-color: rgb(32, 32, 32);
     font-family: 'Montserrat';
     font-family: 'Ubuntu' sans-serif;
@@ -46,9 +46,9 @@ body{
 .profile-heading{
     position: absolute;
     color: #fff;
-    top: -160px;
-    left: 643px;
-    font-size: 50px;
+    top: -215px;
+    left: 625px;
+    font-size: 65px;
     text-transform: capitalize;
     font-weight: 300;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.342));
@@ -57,7 +57,7 @@ body{
 }
  .avatar{
   position: absolute;
-  top: -170px;
+  top: -200px;
   left: 610px;
   display: flex;
   max-height: 80%;
