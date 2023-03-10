@@ -1,0 +1,222 @@
+@media (max-width: 1140px) {
+    .box{
+        position: absolute;
+        width: 624px;
+        height: 340px;
+        margin: 200px 260px;
+    }
+    .avatar img{
+        width: 202px;
+        height: 200px;
+        margin: 140px 480px;
+    }
+    .header_text{
+        margin: 370px 538px;
+        font-size: 38px;
+        font-family: 'Montserrat';
+    }
+    .sub_text{
+        width: 225px;
+        height: 30px;
+        margin: 428px 474px;
+        font-size: 15px;
+        font-family: 'Ubuntu';
+    }
+    .sub_text2{
+        width: 369px;
+        height: 30px;
+        margin: 450px 400px;
+        font-size: 15px;
+        font-family: 'Ubuntu';
+    }
+    .sub_text3{
+        width: 369px;
+        height: 30px;
+        margin: 473px 420px;
+        font-size: 15px;
+        font-family: 'Ubuntu';
+    }
+    .button_insta{
+        width: 32px;
+        margin: 510px 500px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_spoti{
+        width: 32px;
+        margin: 510px 550px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_steam{
+        width: 32px;
+        margin: 510px 600px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_twitch{
+        width: 32px;
+        margin: 510px 650px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_git{
+        width: 46px;
+        margin: 515px 825px;
+        height: 46px;
+        background-color: #111111;
+        border-radius: 20px;
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.281));
+    }
+    .button_git img{
+        width: 26px;
+        height: 26px;
+        margin: 9px 10px;
+    }
+}
+
+
+
+
+@media (max-width: 970px) {
+    .box{
+        position: absolute;
+        width: 480px;
+        height: 320px;
+        margin: 200px 220px;
+    }
+    .avatar img{
+        width: 180px;
+        height: 180px;
+        margin: 140px 376px;
+    }
+    .header_text{
+        margin: 375px 431px;
+        font-size: 32px;
+        font-family: 'Montserrat';
+    }
+    .sub_text{
+        width: 225px;
+        height: 30px;
+        margin: 428px 357px;
+        font-size: 15px;
+        font-family: 'Ubuntu';
+    }
+    .sub_text2{
+        width: 369px;
+        height: 30px;
+        margin: 450px 286px;
+        font-size: 15px;
+        font-family: 'Ubuntu';
+    }
+    .sub_text3{
+        width: 369px;
+        height: 30px;
+        margin: 473px 312px;
+        font-size: 15px;
+        font-family: 'Ubuntu';
+    }
+    .button_insta{
+        width: 32px;
+        margin: 510px 380px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_spoti{
+        width: 32px;
+        margin: 510px 430px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_steam{
+        width: 32px;
+        margin: 510px 480px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_twitch{
+        width: 32px;
+        margin: 510px 530px;
+        height: 32px;
+        background-color: #161616;
+        border-radius: 50px;
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    }
+    .button_git{
+        width: 36px;
+        margin: 530px 650px;
+        height: 36px;
+        background-color: #111111;
+        border-radius: 10px;
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.281));
+    }
+    .button_git img{
+        width: 24px;
+        height: 24px;
+        margin: 5px 6px;
+    }
+    .project_box{
+        width: 321px;
+        margin: 515px 20px;
+        height: 250px;
+        background-color: #f3f3f3;
+        border-radius: 15px;
+        filter: drop-shadow(0px 11px 13px rgba(0, 0, 0, 0.685));
+      }
+    .project_frame{
+        position: absolute;
+        width: 321px;
+        margin: 515px 20px;
+        height: 42px;
+        background-color: #949494;
+        border-radius: 15px 15px 0 0;
+    }
+    .project_text{
+        width: 369px;
+        height: 30px;
+        position: absolute;
+        color: #000000;
+        margin: 0px 79px;
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
+    .project_icon{
+        width: 20px;
+        height: 20px;
+        margin: 0px 55px;
+    }
+    .alphamap img{
+        width: 56px;
+        height: 56px;
+        margin: 6px 105px;
+        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.445));
+    } 
+    .alphamap_text{
+        width: 280px;
+        height: 20px;
+        font-size: 14px;
+        margin: 2px 10px;
+        font-family: 'Ubuntu';
+    }
+      .alphamap_text2{
+        width: 320px;
+        height: 20px;
+        font-size: 14px;
+        margin: 43px 10px;
+        font-family: 'Ubuntu';
+    }
+}

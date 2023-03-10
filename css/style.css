@@ -1,477 +1,284 @@
 @font-face {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    src: url("fonts/Montserrat-Medium.ttf") format("ttf");
-    src: url("fonts/Ubuntu-Regular.ttf") format("ttf");
-  }
-
-*{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  src: url("fonts/Montserrat-Medium.ttf") format("ttf");
+  src: url("fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+ 
+/* box sizing */
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
+  }
+  
+/* body */
+  body {
     width: 100%;
     max-width: 1400px;
-    display: block;
-    margin: auto;
     min-height: 100vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-image: url('img/flower-blur.png');
-    background-color: rgb(32, 32, 32);
-    font-family: 'Montserrat';
-    font-family: 'Ubuntu' sans-serif;
-}
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    margin: auto;
+    line-height: 1.5;
+    background-color: rgb(30, 0, 41);
+    overflow: hidden;
+  }
 
 
 
 
 
-
-
-.own-page{
-    width: 100%;
-    height: 100vh;
-    padding: 0 150px;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    opacity: 0;
-    font-family: 'Montserrat';
-    font-family: 'Ubuntu', sans-serif;
-}
-.profile-heading{
+  .box {
     position: absolute;
-    color: #fff;
-    top: -215px;
-    left: 625px;
-    font-size: 65px;
+    width: 824px;
+    margin: 200px 288px;
+    height: 340px;
+    background-color: #ffffff;
+    border-radius: 21px;
+    filter: drop-shadow(0px 11px 13px rgba(0, 0, 0, 0.685));
+  }
+
+
+  .hat{
+    width: 2960px;
+    height: 475px;
+    margin: -495px -769px;
+  }
+  .hat img{
+    z-index: 1;
+  }
+
+
+  .avatar{
+    display: flex;
+    max-height: 60%;
+  }
+  .avatar img{
+    border-radius: 100%;
+    width: 212px;
+    height: 212px;
+    margin: 140px 595px;
+    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.404));
+    z-index: 1;
+  }
+
+
+  .header_text{
+    position: absolute;
+    color: #000000;
+    margin: 376px 650px;
+    font-size: 42px;
     text-transform: capitalize;
     font-weight: 300;
-    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.342));
-    animation: Finy 2.3s forwards;
     font-family: 'Montserrat';
-}
- .avatar{
-  position: absolute;
-  top: -200px;
-  left: 610px;
-  display: flex;
-  max-height: 80%;
-  transition: 0.3s;
-  filter: drop-shadow(0 0px 10px rgba(0, 0, 0, 0.74));
-  animation: avatar 2s forwards;
- }
-
-
-
-
-
-
-
-.frame{
-  width: 1380px;
-  height: 680px;
-  position: absolute;
-  top: 270px;
-  left: 25px;
-  display: flex;
-  align-items: center;
-  filter: drop-shadow(0 -20px 50px rgba(0, 0, 0, 0.726));
-  transition: 0.3s;
-  animation: frame 1s forwards;
-}
-.insta-frame{
-  position: absolute;
-  top: 293px;
-  left: 515px;
-  animation: frame 1s forwards;
-}
-.spotify-frame{
-  position: absolute;
-  top: 293px;
-  left: 725px;
-  animation: frame 1s forwards;
-}
-
-
-.steam-frame{
-  position: absolute;
-  top: 293px;
-  left: 935px;
-  animation: frame 1s forwards;
-}
-.insta{
-  width: 21px;
-  height: 21px;
-  position: absolute;
-  top: 298px;
-  left: 530px;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
-  animation: frame 1s forwards;
-}
-.spotify{
-  width: 21px;
-  height: 21px;
-  position: absolute;
-  top: 298px;
-  left: 740px;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
-  animation: frame 1s forwards;
-}
-.steam{
-  width: 21px;
-  height: 21px;
-  position: absolute;
-  top: 298px;
-  left: 949px;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
-  animation: frame 1s forwards;
-}
-
-
-.insta-frame-text{
-  position: absolute;
-  color: #fff;
-  top: 297px;
-  left: 580px;
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: 300;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
-  animation: frame 1s forwards;
-  font-family: 'Montserrat';
-}
-.spotify-frame-text{
-  position: absolute;
-  color: #fff;
-  top: 297px;
-  left: 802px;
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: 300;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
-  animation: frame 1s forwards;
-  font-family: 'Montserrat';
-}
-.steam-frame-text{
-  position: absolute;
-  color: #fff;
-  top: 297px;
-  left: 1010px;
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: 300;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.726));
-  animation: frame 1s forwards;
-  font-family: 'Montserrat';
-}
-
-
-.frame-text{
-  width: 3ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 405px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 2s steps(12, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts{
-  width: 68ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 435px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(70, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts2{
-  width: 62ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 470px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(70, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts3{
-  width: 106ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 505px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(106, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts4{
-  width: 93ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 542px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(93, end),
-  blink-caret 0.75s ease infinite;
-}
-
-.space{
-  width: 100ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 620px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(100, end),
-  blink-caret 0.75s ease infinite;
-}
-
-.frame-text-eng{
-  width: 3ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 648px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 2s steps(2, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts-eng{
-  width: 68ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 680px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(70, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts2-eng{
-  width: 51ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 720px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(70, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts3-eng{
-  width: 74ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 760px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(106, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-texts4-eng{
-  width: 72ch;
-  color: #fff;
-  font-family: 'Ubuntu' sans-serif;
-  overflow: hidden;
-  border-right: 3px solid #00a2ff;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .17em;
-  position: absolute;
-  font-size: 20px;
-  top: 798px;
-  left: 80px;
-  animation: as 1s forwards,
-  typing 3s steps(93, end),
-  blink-caret 0.75s ease infinite;
-}
-.frame-img{
-  width: 100px;
-  height: 1000px;
-  position: absolute;
-  top: -10px;
-  right: 0px;
-  display: flex;
-  align-items: center;
-  transition: 0.3s;
-}
-.css{
-  width: 72px;
-  height: 72px;
-  position: absolute;
-  top: 800px;
-  right: 10px;
-  animation: animka 1s forwards;
-}
-.html-img{
-  width: 72px;
-  height: 72px;
-  position: absolute;
-  top: 700px;
-  right: 10px;
-  animation: animka 1s forwards;
-}
-.js-img{
-  width: 72px;
-  height: 72px;
-  position: absolute;
-  top: 600px;
-  right: 10px;
-  animation: animka 1s forwards;
-}
-.py-img{
-  width: 72px;
-  height: 72px;
-  position: absolute;
-  top: 500px;
-  right: 10px;
-  animation: animka 1s forwards;
-}
-.osint-img{
-  width: 72px;
-  height: 72px;
-  position: absolute;
-  top: 400px;
-  right: 10px;
-  animation: animka 1s forwards;
-}
-
-
-.own-page.active{
-  position: relative;
-  opacity: 1;
-  z-index: 8;
-}
-
-
-@keyframes Finy {
-  0% {
-    transform: translateY(0);
   }
-  100% {
-    transform: translateY(36vh);
+  .sub_text{
+    width: 225px;
+    height: 30px;
+    position: absolute;
+    color: #000000;
+    margin: 430px 588px;
+    font-size: 15px;
+    font-family: 'Ubuntu';
   }
-}
-@keyframes avatar {
-  0% {
-    transform: translateY(0);
+  .sub_text2{
+    width: 369px;
+    height: 30px;
+    position: absolute;
+    color: #000000;
+    margin: 450px 520px;
+    font-size: 15px;
+    font-family: 'Ubuntu';
   }
-  100% {
-    transform: translateY(24vh);
+  .sub_text3{
+    width: 369px;
+    height: 30px;
+    position: absolute;
+    color: #000000;
+    margin: 470px 545px;
+    font-size: 15px;
+    font-family: 'Ubuntu';
   }
-}
-@keyframes frame {
-  0% {
-    transform: translateY(100vh);
+  
+
+
+  .button_insta{
+    position: absolute;
+    width: 32px;
+    margin: 510px 600px;
+    height: 32px;
+    background-color: #161616;
+    border-radius: 50px;
+    filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
+    transform: scale(1.005);
+    }
+  .button_insta:hover{
+    background-color: rgb(43, 43, 43);
   }
-  100% {
-    transform: translateX(0vh);
+  .button_insta img{
+    width: 18px;
+    height: 18px;
+    margin: 7px 7px;
   }
-}
-@keyframes as {
-  0% {
-    transform: translateY(100vh);
+  .button_spoti{
+    position: absolute;
+    width: 32px;
+    margin: 510px 650px;
+    height: 32px;
+    background-color: #161616;
+    border-radius: 50px;
+    filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
   }
-  100% {
-    transform: translateX(0vh);
+  .button_spoti:hover{
+    background-color: rgb(43, 43, 43);
   }
-}
-@keyframes typing {
-  from{
-    width: 0;
+  .button_spoti img{
+    width: 18px;
+    height: 18px;
+    margin: 7px 7px;
   }
-}
-@keyframes blink-caret {
-  0%{
-    border-color: #00a2ff;
+  .button_steam{
+    position: absolute;
+    width: 32px;
+    margin: 510px 700px;
+    height: 32px;
+    background-color: #161616;
+    border-radius: 50px;
+    filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
   }
-  50%{
-    border-color: transparent;
+  .button_steam:hover{
+    background-color: rgb(43, 43, 43);
   }
-  100%{
-    border-color: #00a2ff;
+  .button_steam img{
+    width: 18px;
+    height: 18px;
+    margin: 7px 7px;
   }
-}
-@keyframes animka {
-  0% {
-    transform: translateX(100vh);
+  .button_twitch{
+    position: absolute;
+    width: 32px;
+    margin: 510px 750px;
+    height: 32px;
+    background-color: #161616;
+    border-radius: 50px;
+    filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.281));
   }
-  100% {
-    transform: translateX(0vh);
+  .button_twitch:hover{
+    background-color: rgb(43, 43, 43);
   }
-}
+  .button_twitch img{
+    width: 18px;
+    height: 18px;
+    margin: 7px 7px;
+  }
+  .button_git{
+    position: absolute;
+    width: 56px;
+    margin: 502px 1050px;
+    height: 56px;
+    background-color: #111111;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.281));
+  }
+  .button_git:hover{
+    background-color: rgb(43, 43, 43);
+  }
+  .button_git img{
+    width: 36px;
+    height: 36px;
+    margin: 9px 10px;
+  }
+
+
+  
+
+  .project_box{
+    position: absolute;
+    width: 421px;
+    margin: 515px 20px;
+    height: 321px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    filter: drop-shadow(0px 11px 13px rgba(0, 0, 0, 0.685));
+  }
+
+
+  .project_frame{
+    position: absolute;
+    width: 421px;
+    margin: 515px 20px;
+    height: 42px;
+    background-color: #949494;
+    border-radius: 15px 15px 0 0;
+  }
+  .frame_button_pr{
+    width: 21px;
+    height: 21px;
+    margin: 10px 5px;
+    background-color: #ff2424;
+    border-radius: 100px;
+  }
+  .frame_button_pr:hover{
+    background-color: #dd0000;
+  }
+  .frame_button_pr2{
+    width: 21px;
+    height: 21px;
+    margin: 10px 30px;
+    background-color: #ffd359;
+    border-radius: 100px;
+  }
+  .frame_button_pr2:hover{
+    background-color: #ffc219;
+  }
+  .frame_button_pr3{
+    width: 21px;
+    height: 21px;
+    margin: 10px 30px;
+    background-color: #00e60bf1;
+    border-radius: 100px;
+  }
+  .frame_button_pr3:hover{
+    background-color: #67c200f1;
+  }
+  .project_text{
+    width: 369px;
+    height: 30px;
+    position: absolute;
+    color: #000000;
+    margin: 0px 122px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+  }
+  .project_icon{
+    width: 20px;
+    height: 20px;
+    margin: 0px 101px;
+  }
+  
+  .alphamap img{
+    width: 56px;
+    height: 56px;
+    margin: 6px 156px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.445));
+  }
+  .alphamap_text{
+    width: 280px;
+    height: 20px;
+    font-size: 16px;
+    margin: 2px 57px;
+    font-family: 'Ubuntu';
+  }
+  .alphamap_text2{
+    width: 320px;
+    height: 20px;
+    font-size: 16px;
+    margin: 43px 42px;
+    font-family: 'Ubuntu';
+  }
+
+  
+
+
+      
